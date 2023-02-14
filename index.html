@@ -138,7 +138,7 @@
       function typing() {
         if (i <= str.length) {
           divTyping.innerHTML = str.slice(0, i++) + "_";
-          timer = setTimeout(typing, 320);
+          timer = setTimeout(typing, 330);
         } else {
           divTyping.innerHTML = str; //结束打字,移除 _ 光标
           clearTimeout(timer);
