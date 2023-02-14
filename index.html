@@ -117,7 +117,7 @@
       <div id="ground" style="width: 720px; height: 720px;"></div>
     </div>
 
-    <div class="title">宝宝，情人节快乐呀</div>
+    <div class="title">情人节快乐呀</div>
     <div id="days"></div>
 
     <div
@@ -138,7 +138,7 @@
       function typing() {
         if (i <= str.length) {
           divTyping.innerHTML = str.slice(0, i++) + "_";
-          timer = setTimeout(typing, 300);
+          timer = setTimeout(typing, 320);
         } else {
           divTyping.innerHTML = str; //结束打字,移除 _ 光标
           clearTimeout(timer);
